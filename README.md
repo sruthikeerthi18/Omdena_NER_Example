@@ -5,6 +5,6 @@ The dataset used for these examples is the ner_dataset.csv available <a href = "
 ### Description
 1. NER using Spacy: <br>
 A custom Spacy model was trained for custom dataset. A blank model was loaded. The other operaations were frozen and only the NER pipeline was trained. 
-The model was saved in a directory.
+The model was saved in a directory. The dataset consists of about 1 million records and the training takes a long time.
 2. NER using LSTM: <br>
 A Deep Learning with Embedding and LSTM layers was used to perform NER in the sample dataset.
